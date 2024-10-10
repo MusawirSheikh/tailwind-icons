@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgb(6, 6, 61);
+    padding: 1rem 0px;
+    /* above values are y-axis and x-axis */
+    font-size: 1.4rem;
+    /* border-radius: 10rem; */
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul a li {
+    /* background-color: blueviolet; */
+    display: inline;
+    margin: 0px 0px 0px 1rem;
+
+}
+
+nav ul a li:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+
+nav ul {
+    /* background-color: rgb(82, 61, 36); */
+    text-align: center;
+}
+
+#search {
+    position: absolute;
+    margin: 0% 0px 0px 75%;
+
+}
+
+#search:hover {
+    border: none;
+
+}
+
+
+#search input {
+
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+#search button {
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+
+#logo {
+    position: absolute;
+    margin: -2px 0px 0px -23rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+}
+
+#logo:hover {
+    border: none;
+
+}
+
+span {
+    color: rgb(214, 13, 13);
+    font-size: 1.8rem;
+}
+
+.hero {
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2.4rem 1.2rem;
+    font-size: 1.6rem;
+
+}
+
+/* .hero p{
+    margin: 0px 0px 1rem 0px;
+} */
+.hero button {
+    margin: 1rem 0px 0rem 0px;
+    padding: 0.4rem 2.7rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: white;
+    font-size: 1.6rem;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+    border-radius: 50px;
+}
+.hero button:hover{
+transform: scale(1.1);
+    background-color: rgb(196, 106, 68);
+   
+}
+
+.service{
+
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 5rem 0px;
+    text-align: center;
+}
+
+.service img{
+    width: 30%;
+    margin: 5rem 0px 0px 0px;
+    height: 18rem;
+  
+}
+
+
+.service h1{
+    position: absolute;
+    /* margin: -13rem 0px 0px 0px; */
+}
+
+
+/* @media (max-width:720px){
+
+    
+} */
